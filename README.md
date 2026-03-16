@@ -10,7 +10,7 @@ Works in **Claude Code** (via `/plugin`) and **Claude.ai** (via `.skill` file up
 
 **Add the marketplace:**
 ```
-/plugin marketplace add YOUR_USERNAME/content-creator-suite
+/plugin marketplace add EasyCanadianGamer/content-creator-suite
 ```
 
 **Install all 9 plugins at once:**
