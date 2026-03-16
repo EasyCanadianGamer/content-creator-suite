@@ -1,0 +1,20 @@
+{
+  "name": "content-ideas",
+  "version": "1.0.0",
+  "description": "Generate content ideas, video concepts, and full content calendars for any platform or niche",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "content",
+    "ideas",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "planning"
+  ],
+  "skills": [
+    "./skills/content-ideas"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "video-scriptwriter",
+  "version": "1.0.0",
+  "description": "Write polished, ready-to-shoot video scripts for YouTube, TikTok, Reels, ads, and more",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "scripts",
+    "youtube",
+    "tiktok",
+    "video",
+    "writing"
+  ],
+  "skills": [
+    "./skills/video-scriptwriter"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "twitter-manager",
+  "version": "1.0.0",
+  "description": "Write high-performing tweets and threads, grow your following, and develop your X voice",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "twitter",
+    "x",
+    "threads",
+    "tweets",
+    "social-media"
+  ],
+  "skills": [
+    "./skills/twitter-manager"
+  ]
+}

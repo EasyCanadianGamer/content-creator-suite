@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-manager",
+  "version": "1.0.0",
+  "description": "Write LinkedIn posts, optimize your profile, draft outreach, and build professional authority",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "professional",
+    "thought-leadership",
+    "b2b",
+    "networking"
+  ],
+  "skills": [
+    "./skills/linkedin-manager"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "thumbnail-title-optimizer",
+  "version": "1.0.0",
+  "description": "Generate high-CTR titles with scoring analysis and detailed thumbnail design briefs",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "thumbnails",
+    "titles",
+    "seo",
+    "ctr",
+    "optimization"
+  ],
+  "skills": [
+    "./skills/thumbnail-title-optimizer"
+  ]
+}

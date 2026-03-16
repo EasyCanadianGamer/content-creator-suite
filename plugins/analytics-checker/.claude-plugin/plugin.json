@@ -1,0 +1,20 @@
+{
+  "name": "analytics-checker",
+  "version": "1.0.0",
+  "description": "Interpret platform analytics and turn metrics into clear, actionable recommendations",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "analytics",
+    "metrics",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "growth"
+  ],
+  "skills": [
+    "./skills/analytics-checker"
+  ]
+}

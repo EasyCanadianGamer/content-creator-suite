@@ -1,0 +1,95 @@
+{
+  "name": "content-creator-suite",
+  "owner": {
+    "name": "Content Creator Suite",
+    "email": ""
+  },
+  "metadata": {
+    "description": "A complete AI-powered content creation toolkit — scripts, ideas, thumbnails, analytics, and full management for YouTube, TikTok, Instagram, LinkedIn, and Twitter/X.",
+    "version": "1.0.0",
+    "homepage": "https://github.com/YOUR_USERNAME/content-creator-suite"
+  },
+  "plugins": [
+    {
+      "name": "video-scriptwriter",
+      "description": "Write polished, ready-to-shoot video scripts for YouTube, TikTok, Reels, ads, and more — with .docx export",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/video-scriptwriter",
+      "category": "content-creation",
+      "tags": ["scripts", "youtube", "tiktok", "video", "writing"]
+    },
+    {
+      "name": "content-ideas",
+      "description": "Generate content ideas, video concepts, and full content calendars for any platform or niche",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/content-ideas",
+      "category": "content-creation",
+      "tags": ["ideas", "brainstorming", "calendar", "youtube", "tiktok"]
+    },
+    {
+      "name": "thumbnail-title-optimizer",
+      "description": "Generate high-CTR titles with scoring analysis and detailed thumbnail design briefs",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/thumbnail-title-optimizer",
+      "category": "optimization",
+      "tags": ["thumbnails", "titles", "seo", "ctr", "youtube"]
+    },
+    {
+      "name": "analytics-checker",
+      "description": "Interpret platform analytics and turn metrics into clear, actionable recommendations",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/analytics-checker",
+      "category": "analytics",
+      "tags": ["analytics", "metrics", "growth", "youtube", "tiktok", "instagram"]
+    },
+    {
+      "name": "youtube-manager",
+      "description": "Manage your YouTube channel — descriptions, tags, chapters, comments, and channel reports",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/youtube-manager",
+      "category": "platform-management",
+      "tags": ["youtube", "channel", "seo", "comments", "management"]
+    },
+    {
+      "name": "instagram-manager",
+      "description": "Write Instagram captions, hashtag sets, plan feed content, and grow your Instagram presence",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/instagram-manager",
+      "category": "platform-management",
+      "tags": ["instagram", "captions", "hashtags", "reels", "social-media"]
+    },
+    {
+      "name": "tiktok-manager",
+      "description": "Create viral TikTok content — hooks, captions, FYP optimization, and trend research",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/tiktok-manager",
+      "category": "platform-management",
+      "tags": ["tiktok", "hooks", "fyp", "viral", "short-form"]
+    },
+    {
+      "name": "linkedin-manager",
+      "description": "Write LinkedIn posts, optimize your profile, draft outreach, and build professional authority",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/linkedin-manager",
+      "category": "platform-management",
+      "tags": ["linkedin", "professional", "thought-leadership", "networking"]
+    },
+    {
+      "name": "twitter-manager",
+      "description": "Write high-performing tweets and threads, grow your following, and develop your X voice",
+      "version": "1.0.0",
+      "author": { "name": "Content Creator Suite" },
+      "source": "./plugins/twitter-manager",
+      "category": "platform-management",
+      "tags": ["twitter", "x", "threads", "tweets", "social-media"]
+    }
+  ]
+}

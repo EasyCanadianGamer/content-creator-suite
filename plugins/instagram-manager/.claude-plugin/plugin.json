@@ -1,0 +1,19 @@
+{
+  "name": "instagram-manager",
+  "version": "1.0.0",
+  "description": "Write Instagram captions, hashtag sets, plan feed content, and grow your Instagram presence",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "captions",
+    "hashtags",
+    "reels",
+    "social-media"
+  ],
+  "skills": [
+    "./skills/instagram-manager"
+  ]
+}

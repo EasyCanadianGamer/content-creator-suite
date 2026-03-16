@@ -1,0 +1,19 @@
+{
+  "name": "tiktok-manager",
+  "version": "1.0.0",
+  "description": "Create viral TikTok content - hooks, captions, FYP optimization, and trend research",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "tiktok",
+    "hooks",
+    "fyp",
+    "viral",
+    "short-form"
+  ],
+  "skills": [
+    "./skills/tiktok-manager"
+  ]
+}

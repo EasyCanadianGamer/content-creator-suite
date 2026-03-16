@@ -1,0 +1,19 @@
+{
+  "name": "youtube-manager",
+  "version": "1.0.0",
+  "description": "Manage your YouTube channel - descriptions, tags, chapters, comments, and channel reports",
+  "author": {
+    "name": "Content Creator Suite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "channel",
+    "video",
+    "seo",
+    "comments"
+  ],
+  "skills": [
+    "./skills/youtube-manager"
+  ]
+}
