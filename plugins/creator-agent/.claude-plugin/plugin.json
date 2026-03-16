@@ -1,0 +1,9 @@
+{
+  "name": "creator-agent",
+  "version": "1.0.0",
+  "description": "Run the full content workflow — ideas, script, and title/thumbnail optimization in one go",
+  "author": { "name": "Content Creator Suite" },
+  "license": "MIT",
+  "keywords": ["agent", "workflow", "automation", "content", "all-in-one"],
+  "skills": ["./skills/creator-agent"]
+}

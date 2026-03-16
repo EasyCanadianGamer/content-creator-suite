@@ -1,6 +1,6 @@
 # 🎬 Content Creator Suite — Claude Code Plugin Marketplace
 
-A complete AI-powered toolkit for content creators. Nine skills covering every stage of the content workflow — from ideas to scripts, thumbnails to analytics, and full platform management for YouTube, TikTok, Instagram, LinkedIn, and Twitter/X.
+A complete AI-powered toolkit for content creators. Ten skills covering every stage of the content workflow — from ideas to scripts, thumbnails to analytics, full platform management for YouTube, TikTok, Instagram, LinkedIn, and Twitter/X, and an end-to-end creator agent that chains it all together.
 
 Works in **Claude Code** (via `/plugin`) and **Claude.ai** (via `.skill` file upload in Settings → Skills).
 
@@ -13,7 +13,7 @@ Works in **Claude Code** (via `/plugin`) and **Claude.ai** (via `.skill` file up
 /plugin marketplace add EasyCanadianGamer/content-creator-suite
 ```
 
-**Install all 9 plugins at once:**
+**Install all 10 plugins at once:**
 ```
 /plugin install video-scriptwriter
 /plugin install content-ideas
@@ -24,6 +24,7 @@ Works in **Claude Code** (via `/plugin`) and **Claude.ai** (via `.skill` file up
 /plugin install tiktok-manager
 /plugin install linkedin-manager
 /plugin install twitter-manager
+/plugin install creator-agent
 ```
 
 Or install only the ones you need.
@@ -56,6 +57,12 @@ Or install only the ones you need.
 | **linkedin-manager** | Thought leadership posts, profile optimization, outreach messages |
 | **twitter-manager** | Tweets, threads, voice development, engagement strategy |
 
+### 🤖 Workflow Agent
+
+| Plugin | What it does |
+|--------|-------------|
+| **creator-agent** | Full end-to-end pipeline — ideas → script → title/thumbnail → platform caption in one go |
+
 ---
 
 ## 🔧 Manual Install (Claude.ai)
@@ -71,6 +78,9 @@ If you're using Claude.ai instead of Claude Code, you can install skills directl
 
 ```
 content-creator-suite/
+├── .claude/
+│   └── commands/
+│       └── creator.md          # /creator slash command (dashboard menu)
 ├── .claude-plugin/
 │   └── marketplace.json        # Marketplace manifest
 ├── plugins/
@@ -87,7 +97,8 @@ content-creator-suite/
 │   ├── instagram-manager/
 │   ├── tiktok-manager/
 │   ├── linkedin-manager/
-│   └── twitter-manager/
+│   ├── twitter-manager/
+│   └── creator-agent/          # end-to-end workflow agent
 └── README.md
 ```
 
@@ -112,7 +123,7 @@ Once installed, just describe what you need:
 "Give me 10 YouTube video ideas about personal finance for millennials"
 → content-ideas activates
 
-"Write a script for a 10-minute video on budgeting basics"  
+"Write a script for a 10-minute video on budgeting basics"
 → video-scriptwriter activates
 
 "Create 3 title options and a thumbnail brief for my budgeting video"
@@ -123,7 +134,12 @@ Once installed, just describe what you need:
 
 "Write me an Instagram caption and hashtags for my new reel"
 → instagram-manager activates
+
+"Full content package for a video about stoic productivity for 20-somethings"
+→ creator-agent activates (ideas → script → title/thumbnail → caption)
 ```
+
+Or use the `/creator` slash command in Claude Code for a guided menu of all 10 skills.
 
 ---
 
